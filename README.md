@@ -22,7 +22,7 @@ Log(10) TCID50 = Dillution giving above 50% response minus PD
 
 ### Input
 
-Input should be a csv with the following layout (start and end block per calculation in the file if you want one file to calculate multiple results):
+Input should be a **csv** with the following layout (start and end block per calculation in the file if you want one file to calculate multiple results):
 <br /><br />
 START<br />
 Dilution,Infected,Uninfected<br />
@@ -41,10 +41,20 @@ END<br />
 
 ### How to run?
 
+1. Install python 3.x: https://www.python.org/downloads/
+
+2. Install pip (python package manager): https://pip.pypa.io/en/stable/installing/
+
+3. Install the TCID50 Calculator pip package with the following command: 'TODO'
+
+4. TODO: Execute and profit
+
+
 ### Output
 
-Output will match the same input csv with additional columns for cumulative totals, Percent_Infected, PD, TCID50, TCID50/mL, and pfu/mL.
-<br /><br />
+Output will match the same input **csv** in the same directory.<br /><br />
+It will have the same name of the provided csv, with **_result** suffixed.<br /><br />
+The result file will have additional columns for cumulative totals, Percent_Infected, PD, TCID50, TCID50/mL, and pfu/mL.<br /><br />
 START<br />
 Dilution,Infected,Uninfected,Cumulative_Infected,Cumulative_Uninfected,Percent_Infected,BLANK_COLUMN,PD,TCID50,TCID50_per_mL,pfu_per_mL<br />
 0.00001,8,0,14,0,100,,0.29,0.000000512,0.0000000195,0.0000000134<br />
