@@ -1,9 +1,9 @@
-from typing import Sequence
+from typing import List
 
-from application.models.tcid50.dillution import Dillution
+from application.models.tcid50.dilution import Dilution
 
 class TCID50InputDataSet:
-    dillutions = []
+    dilutions = []
 
-    def __init__(self, dillutions: Sequence[Dillution]):
-        self.dillutions = dillutions
+    def __init__(self, dilutions: List[Dilution]):
+        self.dilutions = dilutions

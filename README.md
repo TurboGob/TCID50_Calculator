@@ -6,11 +6,11 @@
 under dilution and uninfected wells totaling everything above dilution.
 
 2. Find PD. PD=(A-50)/(A-B)<br />
-A=% response above 50%<br />
-B=% response below 50%<br />
+A=% response above 50% closest to 50<br />
+B=% response below 50% closest to 50<br />
 
 3. Find TCID 50<br />
-Log(10) TCID50 = Dillution giving above 50% response minus PD
+Log(10) TCID50 = Dilution giving above 50% response minus PD
 
 4. Take reciprocal of TCID50 and multiply by 100 to get TCID50/mL
 
@@ -43,12 +43,7 @@ END<br />
 
 1. Install python 3.x: https://www.python.org/downloads/
 
-2. Install pip (python package manager): https://pip.pypa.io/en/stable/installing/
-
-3. Install the TCID50 Calculator pip package with the following command: 'TODO'
-
-4. TODO: Execute and profit
-
+2. Execute the utility with the following command: **python application/__main__.py calculate_tcid50 ABSOLUTE_PATH_TO_CSV
 
 ### Output
 

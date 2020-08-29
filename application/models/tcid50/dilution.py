@@ -1,4 +1,4 @@
-class Dillution:
+class Dilution:
     dilution_amount = 0.0
     infected_total = 0
     uninfected_total = 0

@@ -1,0 +1,24 @@
+Random Crap
+
+START
+Dilution,Infected,Uninfected
+10^0,5,0
+10^-1,5,0
+10^-2,5,0
+10^-3,5,0
+10^-4,1,4
+10^-5,0,5
+10^-6,0,5
+10^-7,0,5
+END
+
+
+Mosquito 15
+
+START
+Dilution,Infected,Uninfected
+0.00000001,0,8
+1e-05,8,0
+0.0000001,7,1
+0.000001,5,3
+END
